@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name = 'junk-organizer',
-    version = '0.0.8',
+    version = '0.0.1',
     author="Ajay Lingayat",
     author_email="lingayatajay2810@gmail.com",
     description = "This module helps to organize the files that are randomly placed inside a specified folder.",
