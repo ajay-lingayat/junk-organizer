@@ -35,7 +35,6 @@ class Organizer:
            return False
     
     def execute( self, paths, path ):
-        print('...')
         
         for k,v in paths.items():
             old_path = r"{}/{}".format(path, k)
@@ -72,7 +71,6 @@ class Organizer:
             return True
         
     def organize( self, path ):
-        print('Organizing the folder...')
         folders = self.folders
 
         selected_paths = dict()
@@ -88,7 +86,7 @@ class Organizer:
                        
            
            if selected_paths:
-              self.execute(selected_paths)
+              self.execute(selected_paths, path)
               print("\'"+path+'\' folder has been organized!')
            else:
               print("\'"+path+'\' folder is already organized!')
@@ -96,8 +94,7 @@ class Organizer:
            raise Exception(f'\'{path}\' no such directory found!')
 
     def organize_more( self, folders ):
+        print('Organizing the folders')
         for i in folders:
             self.organize(i)
         return True
-
-
