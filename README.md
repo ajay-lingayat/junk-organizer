@@ -16,7 +16,7 @@
 ```python
  from JunkOrganizer import Organizer
  Junk = Organizer()
- Junk.organize('path/to/you/folder/')
+ Junk.organize('path/to/a/folder/')
 ```
 ### Organize multiple folders
 Pass a list of all folders that you want organize to the organize_more method. 
