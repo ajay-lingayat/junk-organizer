@@ -19,7 +19,7 @@
  Junk.organize('C:/user/Ajay/Desktop/Web/')
 ```
 ### Organize multiple folders
-Pass A list of all folders that you want organize. 
+Pass a list of all folders that you want organize to the organize_more method. 
 
 ```python
  folders = [
