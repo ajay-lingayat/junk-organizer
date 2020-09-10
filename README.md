@@ -43,3 +43,7 @@ Output
  folder 'path/to/another/folder' has been organized! 
  folder 'path/to/one_more/folder' has been organized! 
 ```
+
+## Upcoming Updates
+- Organize more files with more extensions. 
+- And many more.
