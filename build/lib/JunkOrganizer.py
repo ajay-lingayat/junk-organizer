@@ -2,8 +2,7 @@ import os
 import shutil
 
 class Organizer:
-    def __init__( self, directory ):
-        self.path = directory
+    def __init__( self ):
         self.folders = {
             "shell scripts": [".sh"],
             "Executables": [".exe"],
@@ -29,15 +28,14 @@ class Organizer:
         
         self.media = ["Images","Audios","Videos","GIFs"]
         
-    def check( self ):
-        if os.path.exists(self.path):
+    def check( self, path ):
+        if os.path.exists(path):
            return True
         else:
            return False
     
-    def execute( self, paths ):
+    def execute( self, paths, path ):
         print('...')
-        path = self.path
         
         for k,v in paths.items():
             old_path = r"{}/{}".format(path, k)
@@ -73,14 +71,13 @@ class Organizer:
                    print(e)
             return True
         
-    def organize( self ):
+    def organize( self, path ):
         print('Organizing the folder...')
-        path = self.path
         folders = self.folders
 
         selected_paths = dict()
         
-        if self.check():
+        if self.check(path):
            files = os.listdir(path)
            
            for i in files:
@@ -92,16 +89,15 @@ class Organizer:
            
            if selected_paths:
               self.execute(selected_paths)
-              print('Folder has been Oragnized!')
+              print("\'"+path+'\' folder has been organized!')
            else:
-              print('Folder is already Organized!')
+              print("\'"+path+'\' folder is already organized!')
         else:
-           raise Exception(f'{path} no such directory found!')
-           
-    def __str__( self ):
-        return str(self.path)
-        
+           raise Exception(f'\'{path}\' no such directory found!')
 
-
+    def organize_more( self, folders ):
+        for i in folders:
+            self.organize(i)
+        return True
 
 
