@@ -13,8 +13,18 @@
 ## Usage
 
 ### Organize a single folder
-```
+```python
  from JunkOrganizer import Organizer
- folder = Organizer('C:/user/Ajay/Desktop/Web/')
- folder.organize()
+ Junk = Organizer()
+ Junk.organize('C:/user/Ajay/Desktop/Web/')
+```
+### Organize multiple folders
+Pass A list of all folders that you want organize. 
+
+```python
+ folders = [
+   'C:/user/Ajay/Desktop/Web/', 
+   'C:/user/Ajay/Desktop/codes/'
+ ]
+ Junk.organize_more(folders) 
 ```
