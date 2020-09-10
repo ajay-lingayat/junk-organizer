@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/JunkOrganizer.py
+src/junk_organizer.egg-info/PKG-INFO
+src/junk_organizer.egg-info/SOURCES.txt
+src/junk_organizer.egg-info/dependency_links.txt
+src/junk_organizer.egg-info/requires.txt
+src/junk_organizer.egg-info/top_level.txt

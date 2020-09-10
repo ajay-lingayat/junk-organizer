@@ -14,8 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     py_modules = ['JunkOrganizer'],
     package_dir = {'': 'src'},
-    install_requires=[
-    ], 
+    install_requires=[], 
     extras_require = {
        "dev":[
        "pytest>=3.7",

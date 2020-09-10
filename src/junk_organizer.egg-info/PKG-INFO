@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: junk-organizer
+Version: 0.0.1
+Summary: This module helps to organize the files that are randomly placed inside a specified folder.
+Home-page: https://github.com/Ajay2810-hub/file-organizer
+Author: Ajay Lingayat
+Author-email: lingayatajay2810@gmail.com
+License: UNKNOWN
+Description: # junk-organizer
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
