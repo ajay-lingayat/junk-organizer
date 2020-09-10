@@ -15,7 +15,6 @@ setup(
     py_modules = ['JunkOrganizer'],
     package_dir = {'': 'src'},
     install_requires=[
-       "shutil",
     ], 
     extras_require = {
        "dev":[
