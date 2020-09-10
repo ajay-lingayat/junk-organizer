@@ -38,6 +38,7 @@ Pass a list of all folders that you want organize to the organize_more method.
 
 Output
 ```
+ Organizing folders...
  folder 'path/to/a/folder' has been organized! 
  folder 'path/to/another/folder' has been organized! 
  folder 'path/to/one_more/folder' has been organized! 
