@@ -94,7 +94,7 @@ class Organizer:
            raise Exception(f'\'{path}\' no such directory found!')
 
     def organize_more( self, folders ):
-        print('Organizing the folders')
+        print('Organizing the folders...')
         for i in folders:
             self.organize(i)
         return True
