@@ -1,6 +1,6 @@
 # junk-organizer
 
-[![Downloads](https://pepy.tech/badge/junk-organizer)](https://pepy.tech/project/junk-organizer)
+[![Downloads](https://pepy.tech/badge/junk-organizer-yellow.svg)](https://pepy.tech/project/junk-organizer)
 [![Downloads](https://pepy.tech/badge/junk-organizer/month)](https://pepy.tech/project/junk-organizer/month)
 [![Downloads](https://pepy.tech/badge/junk-organizer/week)](https://pepy.tech/project/junk-organizer/week)
 
